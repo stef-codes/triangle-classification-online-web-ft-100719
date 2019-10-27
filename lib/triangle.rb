@@ -9,7 +9,12 @@ class Triangle
   end
   
   def kind 
-   
+    if illegal_triangle == true && no_negative_triangle == true
+      true 
+    else  
+      raise TriangleError
+    end
+    
     if size1 == size2 && size2 == size3 
       :equilateral
     elsif size1 != size2 && size2 != size3 && size1 != size3 
@@ -17,18 +22,12 @@ class Triangle
     else 
       :isosceles
     end
-    
-    if illegal_triangle == true && no_negative_triangle == true
-      true 
-    else  
-      raise TriangleError
-    end
   end
      # size1+size2>size3 && b+c>a, && c+a>b.
 
-    def no_small_triangle
-      (size1 && size2 && size3) > 0 
-    end
+    # def no_small_triangle
+    #   (size1 && size2 && size3) > 0 
+    # end
     
     def illegal_triangle
        size1+size2>size3 && size2+size3>size1 && size3+size1>size2
