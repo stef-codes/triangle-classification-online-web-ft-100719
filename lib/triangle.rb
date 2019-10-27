@@ -18,6 +18,7 @@ class Triangle
       :isosceles
     end
     
+    class TriangleError < StandardError
     
     
   end
