@@ -24,7 +24,7 @@ class Triangle
       (size1 && size2 && size3) > 0 
     end
     
-    def triangle1
+    def illegal_triangle
        size1+size2>size3 && size2+size3>size1 && size3+size1>size2
     end
     
