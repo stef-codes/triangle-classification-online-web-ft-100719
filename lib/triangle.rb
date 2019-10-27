@@ -20,17 +20,17 @@ class Triangle
   end
      # size1+size2>size3 && b+c>a, && c+a>b.
 
-    def triangle1
+    def no_small_triangle
       (size1 && size2 && size3) > 0 
     end
     
-    # def triangle1
-    #   # size1+size2>size3 && b+c>a, && c+a>b.
+    def triangle1
+       size1+size2>size3 && size2+size3>size1, && size3+size1>b.
+    end
+    
+    # def no_negative_triangle
+    #   (size1 && size2 && size3) > 0 
     # end
-    
-    def triangle1
-      (size1 && size2 && size3) > 0 
-    end
     
     class TriangleError < StandardError
     end
