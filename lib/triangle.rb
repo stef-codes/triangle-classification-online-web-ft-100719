@@ -23,6 +23,7 @@ class Triangle
     def triangle1
       (size1 && size2 && size3) > 0 
     end
+    
     class TriangleError < StandardError
     end
 end
