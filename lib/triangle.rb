@@ -22,8 +22,6 @@ class Triangle
       (size1 && size2 && size3) > 0 
     end
      # size1+size2>size3 && b+c>a, && c+a>b.
-    class TriangleError < StandardError
-
     end
   end
     
