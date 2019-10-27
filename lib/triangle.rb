@@ -17,6 +17,8 @@ class Triangle
     else 
       :isosceles
     end
+    
+    
   end
      # size1+size2>size3 && b+c>a, && c+a>b.
 
