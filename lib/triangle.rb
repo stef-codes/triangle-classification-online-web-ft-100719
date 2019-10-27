@@ -29,7 +29,7 @@ class Triangle
     end
     
     def no_negative_triangle
-      (size1 && size2 && size3) > 0 
+      size1 > 0 && size2 > 0 && size3 > 0 
     end
     
     class TriangleError < StandardError
