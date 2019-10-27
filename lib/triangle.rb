@@ -17,13 +17,12 @@ class Triangle
     else 
       :isosceles
     end
-    
+  end
+     # size1+size2>size3 && b+c>a, && c+a>b.
+
     def triangle1
       (size1 && size2 && size3) > 0 
     end
-     # size1+size2>size3 && b+c>a, && c+a>b.
-    end
-  end
-    
     class TriangleError < StandardError
+    end
 end
