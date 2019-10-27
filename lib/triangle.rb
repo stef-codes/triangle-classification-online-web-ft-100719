@@ -24,6 +24,14 @@ class Triangle
       (size1 && size2 && size3) > 0 
     end
     
+    # def triangle1
+    #   # size1+size2>size3 && b+c>a, && c+a>b.
+    # end
+    
+    def triangle1
+      (size1 && size2 && size3) > 0 
+    end
+    
     class TriangleError < StandardError
     end
 end
