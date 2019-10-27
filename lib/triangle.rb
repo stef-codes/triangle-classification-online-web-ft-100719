@@ -25,7 +25,7 @@ class Triangle
     end
     
     def triangle1
-       size1+size2>size3 && size2+size3>size1, && size3+size1>.
+       size1+size2>size3 && size2+size3>size1, && size3+size1>size2.
     end
     
     # def no_negative_triangle
