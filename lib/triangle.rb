@@ -1,10 +1,14 @@
 class Triangle
   
-  attr_accessor :1 :length2 :length3
+  attr_accessor :size1 :size2 :size3
   
-  def initialize()
-    
+  def initialize(size1,size2,size3)
+    @size1 = size1
+    @size2 = size2
+    @size3 = size3
+  end
   
   def kind 
   end
+  
 end
