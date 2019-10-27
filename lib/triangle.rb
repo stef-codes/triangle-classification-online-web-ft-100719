@@ -23,11 +23,6 @@ class Triangle
       :isosceles
     end
   end
-     # size1+size2>size3 && b+c>a, && c+a>b.
-
-    # def no_small_triangle
-    #   (size1 && size2 && size3) > 0 
-    # end
     
     def illegal_triangle
        size1+size2>size3 && size2+size3>size1 && size3+size1>size2
