@@ -18,7 +18,9 @@ class Triangle
       :isosceles
     end
     
-    # class TriangleError < StandardError
+    class TriangleError < StandardError
+      
+      size1+size2>siz3 && b+c>a, && c+a>b.
   end
 
 end
