@@ -18,7 +18,11 @@ class Triangle
       :isosceles
     end
     
-    
+    if illegal_triangle == true && no_negative_triangle == true
+      true 
+    else  
+      raise TriangleError
+    end
   end
      # size1+size2>size3 && b+c>a, && c+a>b.
 
