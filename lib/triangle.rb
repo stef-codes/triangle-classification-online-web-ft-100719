@@ -10,10 +10,10 @@ class Triangle
   
   def kind 
     
-    if size1 == size2 && size2 == size3
+    if size1 == size2 && size2 == size3 
       :equilateral
-        
-        :scalene
+    elsif size1 != size2 && size2 != size3 
+      :scalene
     else 
       :isosceles
     end
