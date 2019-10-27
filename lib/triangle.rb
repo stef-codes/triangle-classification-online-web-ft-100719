@@ -12,7 +12,7 @@ class Triangle
     
     if size1 == size2 && size2 == size3 
       :equilateral
-    elsif size1 != size2 && size2 != size3 
+    elsif size1 != size2 && size2 != size3 && size1 != size3 
       :scalene
     else 
       :isosceles
