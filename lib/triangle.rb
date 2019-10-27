@@ -20,7 +20,11 @@ class Triangle
     
     class TriangleError < StandardError
       
-      size1+size2>siz3 && b+c>a, && c+a>b.
+      def triangle1
+        (size1 && size2 && size3) > 0 
+      end
+      # size1+size2>size3 && b+c>a, && c+a>b.
+    end
   end
 
 end
